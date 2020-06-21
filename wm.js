@@ -35,7 +35,7 @@ function launchTerminal() {
 window.addEventListener('load', async () => {
   const browserWindow = electron.remote.getCurrentWindow()
   wm.browserWindow = browserWindow.getNativeWindowHandle().readUInt32LE()
-  window.display = await X11.createClient({display:':1'})
+  window.display = await X11.createClient()
   window.X = display.client
   const root = display.screen[0].root
   const rootWindow = await X.QueryTree(root)
