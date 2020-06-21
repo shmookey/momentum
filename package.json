@@ -1,0 +1,30 @@
+{
+  "name": "momentum",
+  "version": "0.0.1",
+  "description": "momentum window manager",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/shmookey/momentum.git"
+  },
+  "keywords": [
+    "twm",
+    "window-manager"
+  ],
+  "author": "Luke Williams",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shmookey/momentum/issues"
+  },
+  "homepage": "https://github.com/shmookey/momentum#readme",
+  "dependencies": {
+    "x11": "^2.3.0"
+  },
+  "devDependencies": {
+    "electron": "^9.0.4"
+  }
+}

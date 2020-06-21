@@ -1,0 +1,8 @@
+body {
+  background: url(bg-gaia.png) center, black;
+  background-size: 150%;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+}
+
